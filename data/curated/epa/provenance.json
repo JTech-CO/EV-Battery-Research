@@ -1,0 +1,20 @@
+{
+  "dataset_id": "EPA_DRIVE",
+  "source_url": "https://www.epa.gov/system/files/other-files/2025-03/us06col.txt",
+  "landing_url": "https://www.epa.gov/vehicle-and-fuel-emissions-testing/dynamometer-drive-schedules",
+  "retrieved_date": "2026-09-10",
+  "capture_method": "601 numeric schedule rows manually transcribed from browser-parsed EPA plain text",
+  "byte_identical_to_upstream": false,
+  "data_kind": "prescribed_speed_schedule_not_battery_measurement",
+  "original_units": {
+    "time": "s",
+    "speed": "mph"
+  },
+  "changes": [
+    "Header and separators normalized to CSV"
+  ],
+  "rights_note": "EPA policy permits scientific/educational distribution and cautions that commercial use may be protected. This scientific research snapshot is attributed; blanket commercial reuse is not cleared.",
+  "license": "LicenseRef-EPA-Scientific-Educational-Policy",
+  "upstream_checksum": null,
+  "rights_url": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers"
+}

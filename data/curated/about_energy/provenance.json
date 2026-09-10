@@ -1,0 +1,44 @@
+[
+  {
+    "dataset_id": "AE_LFP",
+    "source_url": "https://github.com/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/blob/main/LFP/lfp_18650_cell_BPX.json",
+    "upstream_git_blob_sha1": "bc4aa47b2747ccad2088b9b7cd7baf58298799d5",
+    "retrieved_date": "2026-09-10",
+    "capture_method": "GitHub connector UTF-8 content, manually transcribed and reserialized as JSON",
+    "byte_identical_to_upstream": false,
+    "semantic_comparison_with_downloaded_original": "not_executed; byte download unavailable",
+    "license": "CC-BY-SA-4.0",
+    "attribution": "About:Energy Limited, December 2022",
+    "changes": [
+      "JSON whitespace and numeric formatting normalized",
+      "No intentional change to parameter values or functions"
+    ],
+    "upstream_bpx_version": "0.1",
+    "limitations": [
+      "Parameter provenance is mixed: measurements, fits, literature values and estimates",
+      "No per-parameter measurement uncertainty supplied",
+      "Legacy BPX; current parser conformance not established"
+    ]
+  },
+  {
+    "dataset_id": "AE_NMC",
+    "source_url": "https://github.com/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/blob/main/NMC/nmc_pouch_cell_BPX.json",
+    "upstream_git_blob_sha1": "bb26edb12c2f105c53fcbae69604e077033e35a1",
+    "retrieved_date": "2026-09-10",
+    "capture_method": "GitHub connector UTF-8 content, manually transcribed and reserialized as JSON",
+    "byte_identical_to_upstream": false,
+    "semantic_comparison_with_downloaded_original": "not_executed; byte download unavailable",
+    "license": "CC-BY-SA-4.0",
+    "attribution": "About:Energy Limited, December 2022",
+    "changes": [
+      "JSON whitespace and numeric formatting normalized",
+      "No intentional change to parameter values or functions"
+    ],
+    "upstream_bpx_version": "0.1",
+    "limitations": [
+      "Parameter provenance is mixed: measurements, fits, literature values and estimates",
+      "No per-parameter measurement uncertainty supplied",
+      "Legacy BPX; current parser conformance not established"
+    ]
+  }
+]

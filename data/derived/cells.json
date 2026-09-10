@@ -1,0 +1,40 @@
+[
+  {
+    "cell_id": "AE_LFP_reference_unknown_serial",
+    "dataset_id": "AE_LFP",
+    "manufacturer_model": null,
+    "batch_id": null,
+    "format": "18650 cylindrical",
+    "positive_chemistry": "LFP",
+    "negative_chemistry": "graphite",
+    "nominal_capacity_Ah": 2,
+    "bpx_version": "0.1",
+    "source_ids": [
+      "S01"
+    ],
+    "evidence_status": "source_reported",
+    "notes": [
+      "Logical parameter-set identity, not a verified specimen serial number.",
+      "Mixed measured/fitted/literature/estimated source provenance."
+    ]
+  },
+  {
+    "cell_id": "AE_NMC_reference_unknown_serial",
+    "dataset_id": "AE_NMC",
+    "manufacturer_model": null,
+    "batch_id": null,
+    "format": "pouch",
+    "positive_chemistry": "NMC111",
+    "negative_chemistry": "graphite",
+    "nominal_capacity_Ah": 12.5,
+    "bpx_version": "0.1",
+    "source_ids": [
+      "S01"
+    ],
+    "evidence_status": "source_reported",
+    "notes": [
+      "Logical parameter-set identity, not a verified specimen serial number.",
+      "Mixed measured/fitted/literature/estimated source provenance."
+    ]
+  }
+]
