@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parameter record preserving evidence and units",
+  "type": "object",
+  "required": [
+    "parameter_id",
+    "dataset_id",
+    "section",
+    "name",
+    "value",
+    "unit",
+    "evidence_type",
+    "source_id",
+    "uncertainty",
+    "validity_domain"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "parameter_id": {
+      "type": "string"
+    },
+    "dataset_id": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": [
+        "number",
+        "string",
+        "object",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_type": {
+      "enum": [
+        "measured",
+        "fitted",
+        "literature",
+        "estimated",
+        "mixed_not_resolved",
+        "source_unspecified",
+        "derived"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_blob_sha1": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uncertainty": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "validity_domain": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

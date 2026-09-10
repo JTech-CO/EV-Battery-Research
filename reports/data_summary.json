@@ -1,0 +1,9 @@
+{
+  "parameter_records": 104,
+  "cell_parameter_sets": 2,
+  "embedded_reference_curve_points": 114,
+  "ocp_fit_samples": 404,
+  "prescribed_speed_points": 601,
+  "simulation_runs": 0,
+  "warning": "Counts of derived rows are not counts of independent experimental observations."
+}

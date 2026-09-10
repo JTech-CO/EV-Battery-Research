@@ -1,0 +1,10 @@
+[
+  {
+    "chemistry": "LFP",
+    "status": "not_checked_raw_file_missing"
+  },
+  {
+    "chemistry": "NMC",
+    "status": "not_checked_raw_file_missing"
+  }
+]

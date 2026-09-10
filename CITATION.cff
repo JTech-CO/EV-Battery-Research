@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the original dataset providers and studies, not only this research package. See THIRD_PARTY_NOTICES.md."
+title: "EV Battery Research: Public Data and Evidence Preparation"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-10
+authors:
+  - name: "EV Battery Research contributors"
+abstract: "Bilingual research documentation, source metadata, attributed parameter captures, deterministic data transforms and acquisition plans. No simulator is included."

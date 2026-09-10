@@ -1,0 +1,36 @@
+{
+  "nmc_reference_integrals": [
+    {
+      "protocol_id": "1C_discharge",
+      "points": 38,
+      "duration_s": 3700,
+      "initial_voltage_V": 4.1936757,
+      "final_voltage_V": 2.9047014,
+      "integrated_available_interval_Ah": 12.847222222222213,
+      "trapezoidal_available_interval_Wh": 46.25336914930555,
+      "interpretation": "Integral over captured reference interval; not certified full-test capacity or energy."
+    },
+    {
+      "protocol_id": "C20_discharge",
+      "points": 76,
+      "duration_s": 75000,
+      "initial_voltage_V": 4.19367569,
+      "final_voltage_V": 2.89472934,
+      "integrated_available_interval_Ah": 13.020833333333314,
+      "trapezoidal_available_interval_Wh": 48.384409480034726,
+      "interpretation": "Integral over captured reference interval; not certified full-test capacity or energy."
+    }
+  ],
+  "us06": {
+    "points": 601,
+    "duration_s": 600,
+    "max_mph": 80.3,
+    "trapezoidal_distance_m": 12887.582048000026,
+    "interpretation": "Derived prescribed-schedule distance, not a measured trip or EV range."
+  },
+  "assumptions": [
+    "Linear interpolation between retained samples for the trapezoidal integrals",
+    "No extrapolation to the BPX cutoff voltage",
+    "No cell thermal sensor inferred from constant reference temperature"
+  ]
+}

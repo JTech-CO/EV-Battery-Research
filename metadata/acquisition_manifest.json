@@ -1,0 +1,156 @@
+{
+  "manifest_version": "1.0",
+  "created_date": "2026-09-10",
+  "scope": "Exact About:Energy upstream blobs only. Other portals remain documented manual acquisitions.",
+  "repo": "About-Energy-OpenSource/About-Energy-BPX-Parameterisation",
+  "upstream_tree_sha": "8efd45a7495ad8d3a4d72b547e657322a4baabd2",
+  "upstream_commit_sha": null,
+  "rights": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/blob/main/LICENSE",
+  "files": [
+    {
+      "source_id": "S01",
+      "upstream_path": "LICENSE",
+      "git_blob_sha1": "795087c264ddd3059b2ab3945a74d11930e7c10e",
+      "expected_bytes": 20139,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/795087c264ddd3059b2ab3945a74d11930e7c10e",
+      "destination": "data/raw/about_energy/LICENSE",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "README.md",
+      "git_blob_sha1": "ed9bb38952c05d3592f12153906c116a039aa13b",
+      "expected_bytes": 4181,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/ed9bb38952c05d3592f12153906c116a039aa13b",
+      "destination": "data/raw/about_energy/README.md",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/README.md",
+      "git_blob_sha1": "813bccaba5c3db207263e102d879a11b302a1034",
+      "expected_bytes": 4521,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/813bccaba5c3db207263e102d879a11b302a1034",
+      "destination": "data/raw/about_energy/LFP/README.md",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/README.md",
+      "git_blob_sha1": "9267f85438e0514218fb1094030380f300b68c03",
+      "expected_bytes": 3855,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/9267f85438e0514218fb1094030380f300b68c03",
+      "destination": "data/raw/about_energy/NMC/README.md",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/lfp_18650_cell_BPX.json",
+      "git_blob_sha1": "bc4aa47b2747ccad2088b9b7cd7baf58298799d5",
+      "expected_bytes": 5013,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/bc4aa47b2747ccad2088b9b7cd7baf58298799d5",
+      "destination": "data/raw/about_energy/LFP/lfp_18650_cell_BPX.json",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/nmc_pouch_cell_BPX.json",
+      "git_blob_sha1": "bb26edb12c2f105c53fcbae69604e077033e35a1",
+      "expected_bytes": 8826,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/bb26edb12c2f105c53fcbae69604e077033e35a1",
+      "destination": "data/raw/about_energy/NMC/nmc_pouch_cell_BPX.json",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/data/validation/LFP_25degC_1C.csv",
+      "git_blob_sha1": "e9303442dd9985b26f7adb68573ed92885a8a019",
+      "expected_bytes": 103533,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/e9303442dd9985b26f7adb68573ed92885a8a019",
+      "destination": "data/raw/about_energy/LFP/data/validation/LFP_25degC_1C.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/data/validation/LFP_25degC_2C.csv",
+      "git_blob_sha1": "0a35f383a5014a0512ca8e0a89fd635486a6d46d",
+      "expected_bytes": 49143,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/0a35f383a5014a0512ca8e0a89fd635486a6d46d",
+      "destination": "data/raw/about_energy/LFP/data/validation/LFP_25degC_2C.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/data/validation/LFP_25degC_Co2.csv",
+      "git_blob_sha1": "8cdac5d0fff741b743d71ece650f89e018221149",
+      "expected_bytes": 214684,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/8cdac5d0fff741b743d71ece650f89e018221149",
+      "destination": "data/raw/about_energy/LFP/data/validation/LFP_25degC_Co2.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/data/validation/LFP_25degC_Co20.csv",
+      "git_blob_sha1": "64afc9d06571234eb54572bdaf721be63ba486f2",
+      "expected_bytes": 229026,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/64afc9d06571234eb54572bdaf721be63ba486f2",
+      "destination": "data/raw/about_energy/LFP/data/validation/LFP_25degC_Co20.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "LFP/data/validation/LFP_25degC_DriveCycle.csv",
+      "git_blob_sha1": "40c2102ec507614b5234473e40bf6d2ab47958fa",
+      "expected_bytes": 238638,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/40c2102ec507614b5234473e40bf6d2ab47958fa",
+      "destination": "data/raw/about_energy/LFP/data/validation/LFP_25degC_DriveCycle.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/data/validation/NMC_25degC_1C.csv",
+      "git_blob_sha1": "1f7d9774b17fea2d932b6cf35aca013cea91eed2",
+      "expected_bytes": 110346,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/1f7d9774b17fea2d932b6cf35aca013cea91eed2",
+      "destination": "data/raw/about_energy/NMC/data/validation/NMC_25degC_1C.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/data/validation/NMC_25degC_2C.csv",
+      "git_blob_sha1": "51c7019b5e061d3459e2aa6f9373ef3901db2f43",
+      "expected_bytes": 53885,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/51c7019b5e061d3459e2aa6f9373ef3901db2f43",
+      "destination": "data/raw/about_energy/NMC/data/validation/NMC_25degC_2C.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/data/validation/NMC_25degC_Co2.csv",
+      "git_blob_sha1": "6e6a5c9895a86b358bda8a5bd892531b51267c08",
+      "expected_bytes": 222998,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/6e6a5c9895a86b358bda8a5bd892531b51267c08",
+      "destination": "data/raw/about_energy/NMC/data/validation/NMC_25degC_Co2.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/data/validation/NMC_25degC_Co20.csv",
+      "git_blob_sha1": "fae0882a19a6a27adde3b8b93ea272318e5f4e65",
+      "expected_bytes": 223260,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/fae0882a19a6a27adde3b8b93ea272318e5f4e65",
+      "destination": "data/raw/about_energy/NMC/data/validation/NMC_25degC_Co20.csv",
+      "downloaded_in_this_delivery": false
+    },
+    {
+      "source_id": "S01",
+      "upstream_path": "NMC/data/validation/NMC_25degC_DriveCycle.csv",
+      "git_blob_sha1": "abdb4e2e40926d6e2e816b6e3060a7881560b7ed",
+      "expected_bytes": 248221,
+      "url": "https://api.github.com/repos/About-Energy-OpenSource/About-Energy-BPX-Parameterisation/git/blobs/abdb4e2e40926d6e2e816b6e3060a7881560b7ed",
+      "destination": "data/raw/about_energy/NMC/data/validation/NMC_25degC_DriveCycle.csv",
+      "downloaded_in_this_delivery": false
+    }
+  ]
+}

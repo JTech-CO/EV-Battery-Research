@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Local package/schema/data QA only",
+  "source_count": 28,
+  "resource_count": 23,
+  "requirement_count": 139,
+  "research_chapters_per_language": 20,
+  "markdown_files_checked": 96,
+  "json_schema_status": "passed",
+  "embedded_reference_points": 114,
+  "prescribed_speed_points": 601,
+  "checksum_verification": "not_requested",
+  "not_validated": [
+    "upstream-versus-capture semantic identity",
+    "physical model accuracy",
+    "live download success",
+    "OEM pack fidelity"
+  ],
+  "errors": []
+}

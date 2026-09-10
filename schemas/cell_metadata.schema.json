@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research cell identity, not an OEM specification",
+  "type": "object",
+  "required": [
+    "cell_id",
+    "dataset_id",
+    "positive_chemistry",
+    "negative_chemistry",
+    "source_ids",
+    "evidence_status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cell_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataset_id": {
+      "type": "string"
+    },
+    "manufacturer_model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "batch_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "format": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "positive_chemistry": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "negative_chemistry": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nominal_capacity_Ah": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "bpx_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "evidence_status": {
+      "enum": [
+        "source_reported",
+        "measured_here",
+        "inferred",
+        "unknown"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

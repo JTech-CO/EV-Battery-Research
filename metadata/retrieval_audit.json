@@ -1,0 +1,299 @@
+{
+  "as_of": "2026-09-10",
+  "records": [
+    {
+      "source_id": "S01",
+      "title": "About:Energy BPX parameterisation repository",
+      "url": "https://github.com/About-Energy-OpenSource/About-Energy-BPX-Parameterisation",
+      "source_kind": "primary_repository",
+      "access_status": "read_via_GitHub_connector",
+      "rights_status": "CC-BY-SA-4.0",
+      "audit_note": "License heading verified; source values captured; binary/byte download unavailable.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S02",
+      "title": "PyBaMM DFN equations",
+      "url": "https://docs.pybamm.org/en/latest/source/examples/notebooks/models/DFN.html",
+      "source_kind": "official_documentation",
+      "access_status": "read",
+      "rights_status": "reference_only",
+      "audit_note": "Development documentation, not a stable-version installation recommendation.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S03",
+      "title": "PyBaMM thermal models",
+      "url": "https://docs.pybamm.org/en/latest/source/examples/notebooks/models/thermal-models.html",
+      "source_kind": "official_documentation",
+      "access_status": "read",
+      "rights_status": "reference_only",
+      "audit_note": "Thermal geometry, heat sources, contact resistance and cooling boundary conditions.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S04",
+      "title": "PyBaMM coupled degradation",
+      "url": "https://docs.pybamm.org/en/latest/source/examples/notebooks/models/coupled-degradation.html",
+      "source_kind": "official_documentation",
+      "access_status": "read",
+      "rights_status": "reference_only",
+      "audit_note": "Model structure is not evidence that all coefficients are identifiable.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S05",
+      "title": "PyBaMM parameterisation",
+      "url": "https://docs.pybamm.org/en/latest/source/examples/notebooks/parameterization/parameterization.html",
+      "source_kind": "official_documentation",
+      "access_status": "read",
+      "rights_status": "reference_only",
+      "audit_note": "Parameter functions and characterization workflow.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S06",
+      "title": "BPX official standard download and change notes",
+      "url": "https://bpxstandard.com/bpx-standard/",
+      "source_kind": "official_standard",
+      "access_status": "read_public_page_only",
+      "rights_status": "form_gated_documents",
+      "audit_note": "Public page describes 1.1 extensions. Contact form not submitted; full specification not downloaded.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S07",
+      "title": "CALCE battery data",
+      "url": "https://calce.umd.edu/battery-data",
+      "source_kind": "primary_data_portal",
+      "access_status": "read",
+      "rights_status": "no_blanket_license_verified",
+      "audit_note": "Public data and attribution instructions; individual files need rights review.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S08",
+      "title": "NASA Li-ion aging catalog",
+      "url": "https://data.nasa.gov/dataset/li-ion-battery-aging-datasets",
+      "source_kind": "primary_data_catalog",
+      "access_status": "read",
+      "rights_status": "license_not_specified",
+      "audit_note": "Do not infer public-domain status for all contributor data.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S09",
+      "title": "NASA PCoE data repository",
+      "url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+      "source_kind": "primary_data_portal",
+      "access_status": "read",
+      "rights_status": "per_dataset_review",
+      "audit_note": "Official links for Battery and Randomized Battery archives; not downloaded.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S10",
+      "title": "LG HG2 dataset v3",
+      "url": "https://data.mendeley.com/datasets/cp3473x7xv/3",
+      "source_kind": "primary_dataset",
+      "access_status": "read_metadata",
+      "rights_status": "CC-BY-4.0",
+      "audit_note": "DOI 10.17632/cp3473x7xv.3, published 2020-03-05. File list not captured.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S11",
+      "title": "Battery Archive study summaries",
+      "url": "https://batteryarchive.org/study_summaries.html",
+      "source_kind": "data_custodian_summary",
+      "access_status": "read",
+      "rights_status": "institution_specific",
+      "audit_note": "Study-level descriptions; original files/rights must be obtained separately.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S12",
+      "title": "Battery Archive access page",
+      "url": "https://www.batteryarchive.org/",
+      "source_kind": "data_custodian_portal",
+      "access_status": "read",
+      "rights_status": "permission_request",
+      "audit_note": "Full CSV access by email request; no request sent.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S13",
+      "title": "Mechanically induced thermal runaway v2",
+      "url": "https://data.mendeley.com/datasets/sn2kv34r4h/2",
+      "source_kind": "primary_dataset",
+      "access_status": "read_metadata",
+      "rights_status": "CC-BY-4.0",
+      "audit_note": "DOI 10.17632/sn2kv34r4h.2, published 2024-09-24. Numerical files not downloaded.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S14",
+      "title": "Battery Failure Databank",
+      "url": "https://www.nlr.gov/transportation/battery-failure",
+      "source_kind": "primary_data_portal",
+      "access_status": "read_metadata",
+      "rights_status": "spreadsheet_terms_not_verified",
+      "audit_note": "Spreadsheet revision February 2024; full spreadsheet not inspected or downloaded.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S15",
+      "title": "Battery Microstructures Library",
+      "url": "https://www.nlr.gov/transportation/microstructure",
+      "source_kind": "primary_data_portal",
+      "access_status": "read_metadata",
+      "rights_status": "custom_agreement",
+      "audit_note": "Carbon-binder phase is numerically generated in supplied reconstructions.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S16",
+      "title": "Microstructure library agreement",
+      "url": "https://www.nlr.gov/transportation/microstructure-library-disclaimer",
+      "source_kind": "primary_terms",
+      "access_status": "read",
+      "rights_status": "custom_agreement_not_accepted",
+      "audit_note": "Agreement includes notice retention and credit obligations. No acceptance submitted.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S17",
+      "title": "EPA dynamometer schedules",
+      "url": "https://www.epa.gov/vehicle-and-fuel-emissions-testing/dynamometer-drive-schedules",
+      "source_kind": "primary_test_schedule",
+      "access_status": "read",
+      "rights_status": "scientific_educational_use_policy",
+      "audit_note": "Speed schedules, not measured battery-current records.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S18",
+      "title": "EPA US06 numeric schedule",
+      "url": "https://www.epa.gov/system/files/other-files/2025-03/us06col.txt",
+      "source_kind": "primary_numeric_schedule",
+      "access_status": "numeric_text_captured",
+      "rights_status": "see_S19",
+      "audit_note": "601 rows, 0-600 s. Transcribed semantic snapshot, not byte-identical download.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S19",
+      "title": "EPA disclaimers and copyright status",
+      "url": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers",
+      "source_kind": "primary_terms",
+      "access_status": "read",
+      "rights_status": "custom_site_policy",
+      "audit_note": "Scientific/educational distribution is described; commercial use is not blanket-cleared.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S20",
+      "title": "BLAST battery lifetime models",
+      "url": "https://www.nlr.gov/transportation/blast",
+      "source_kind": "official_software_description",
+      "access_status": "read",
+      "rights_status": "code_and_data_licenses_separate",
+      "audit_note": "Semiempirical model coefficients are not raw observations.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S21",
+      "title": "Materials Project API guide",
+      "url": "https://docs.materialsproject.org/downloading-data/using-the-api",
+      "source_kind": "official_api_documentation",
+      "access_status": "read",
+      "rights_status": "API_terms_review",
+      "audit_note": "Material calculations are priors, not measured manufactured-cell parameters.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S22",
+      "title": "Oxford Battery Degradation Dataset 1",
+      "url": "https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac",
+      "source_kind": "primary_dataset_landing",
+      "access_status": "access_blocked",
+      "rights_status": "not_reverified",
+      "audit_note": "Primary landing blocked in this session. Study information cross-referenced to S11.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S23",
+      "title": "Iowa State ILCC dataset landing",
+      "url": "https://doi.org/10.25380/iastate.22582234",
+      "source_kind": "primary_dataset_landing",
+      "access_status": "access_blocked",
+      "rights_status": "not_reverified",
+      "audit_note": "Institution DOI linked by S11; primary payload not inspected.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S24",
+      "title": "Michigan expansion dataset landing",
+      "url": "https://deepblue.lib.umich.edu/data/concern/data_sets/5d86p0488",
+      "source_kind": "primary_dataset_landing",
+      "access_status": "access_blocked",
+      "rights_status": "not_reverified",
+      "audit_note": "Primary payload not inspected; matching and rights unresolved.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S25",
+      "title": "Severson/Attia original data-processing repository",
+      "url": "https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation",
+      "source_kind": "author_repository",
+      "access_status": "read_via_GitHub_connector",
+      "rights_status": "data_license_not_established",
+      "audit_note": "README distinguishes accessible processing code from modeling code requiring an academic license.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S26",
+      "title": "MATR Experimental Data Platform",
+      "url": "https://data.matr.io/1/",
+      "source_kind": "primary_data_portal",
+      "access_status": "javascript_shell_only",
+      "rights_status": "not_reverified",
+      "audit_note": "No hidden API queried; no numerical files retrieved.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S27",
+      "title": "BatteryML paper",
+      "url": "https://arxiv.org/abs/2310.14714",
+      "source_kind": "primary_research_preprint",
+      "access_status": "search_metadata_reviewed",
+      "rights_status": "reference_only",
+      "audit_note": "Benchmark/processing framework; dataset-specific rights and source splits still apply.",
+      "verified_date": "2026-09-10"
+    },
+    {
+      "source_id": "S28",
+      "title": "PyBOP paper",
+      "url": "https://arxiv.org/abs/2412.15859",
+      "source_kind": "primary_research_preprint",
+      "access_status": "search_metadata_reviewed",
+      "rights_status": "reference_only",
+      "audit_note": "Parameter identification framework; does not solve observational non-identifiability.",
+      "verified_date": "2026-09-10"
+    }
+  ],
+  "runtime_limitations": [
+    "Direct byte downloads of raw GitHub JSON and EPA text failed in this session.",
+    "GitHub connector supplied UTF-8 parameter content; the two JSON snapshots are manually transcribed/reserialized.",
+    "Web tool supplied EPA plain text; 601 numeric rows were transcribed.",
+    "Full experimental CSV archives, MAT/HDF5/XLSX files and CT volumes were not downloaded.",
+    "No license agreements accepted, contact forms submitted, email sent, or authenticated data API called."
+  ],
+  "not_executed": [
+    "No simulator run",
+    "No parameter calibration",
+    "No prediction accuracy measurement",
+    "No live successful run of the supplied downloader",
+    "No GitHub repository creation or publication"
+  ]
+}

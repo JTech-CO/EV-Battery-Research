@@ -1,0 +1,2 @@
+# Structural schema validation only; no simulator or ML packages.
+jsonschema>=4.18,<5

@@ -1,0 +1,23 @@
+{
+  "mode": "dry_run",
+  "file_count": 16,
+  "expected_bytes": 1740269,
+  "destinations": [
+    "data/raw/about_energy/LICENSE",
+    "data/raw/about_energy/README.md",
+    "data/raw/about_energy/LFP/README.md",
+    "data/raw/about_energy/NMC/README.md",
+    "data/raw/about_energy/LFP/lfp_18650_cell_BPX.json",
+    "data/raw/about_energy/NMC/nmc_pouch_cell_BPX.json",
+    "data/raw/about_energy/LFP/data/validation/LFP_25degC_1C.csv",
+    "data/raw/about_energy/LFP/data/validation/LFP_25degC_2C.csv",
+    "data/raw/about_energy/LFP/data/validation/LFP_25degC_Co2.csv",
+    "data/raw/about_energy/LFP/data/validation/LFP_25degC_Co20.csv",
+    "data/raw/about_energy/LFP/data/validation/LFP_25degC_DriveCycle.csv",
+    "data/raw/about_energy/NMC/data/validation/NMC_25degC_1C.csv",
+    "data/raw/about_energy/NMC/data/validation/NMC_25degC_2C.csv",
+    "data/raw/about_energy/NMC/data/validation/NMC_25degC_Co2.csv",
+    "data/raw/about_energy/NMC/data/validation/NMC_25degC_Co20.csv",
+    "data/raw/about_energy/NMC/data/validation/NMC_25degC_DriveCycle.csv"
+  ]
+}

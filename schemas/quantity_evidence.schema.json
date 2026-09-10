@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generic scalar observation with provenance",
+  "type": "object",
+  "required": [
+    "quantity",
+    "value",
+    "unit",
+    "source_id",
+    "evidence_type"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "quantity": {
+      "type": "string"
+    },
+    "value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "enum": [
+        "measured",
+        "fitted",
+        "estimated",
+        "computed",
+        "prescribed",
+        "unknown"
+      ]
+    },
+    "uncertainty": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "condition": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "00_RESEARCH_SUMMARY",
+    "title_en": "Research summary and decision",
+    "title_ko": "연구 요약과 핵심 판단"
+  },
+  {
+    "slug": "01_PHYSICS_AND_CHEMISTRY",
+    "title_en": "Operating physics and chemistry",
+    "title_ko": "작동 원리와 화학·물리 반응"
+  },
+  {
+    "slug": "02_CELL_STRUCTURE_AND_MATERIALS",
+    "title_en": "Cell structure and material identity",
+    "title_ko": "셀 구조와 소재 식별"
+  },
+  {
+    "slug": "03_MODEL_HIERARCHY",
+    "title_en": "Model hierarchy and evidence requirements",
+    "title_ko": "모델 계층과 필요한 증거"
+  },
+  {
+    "slug": "04_ELECTROCHEMICAL_DATA",
+    "title_en": "Electrochemical characterization and parameter use",
+    "title_ko": "전기화학 특성화와 매개변수 활용"
+  },
+  {
+    "slug": "05_THERMAL_AND_COOLING",
+    "title_en": "Thermal behavior and cooling boundaries",
+    "title_ko": "열 거동과 냉각 경계조건"
+  },
+  {
+    "slug": "06_DEGRADATION_AND_IDENTIFIABILITY",
+    "title_en": "Aging mechanisms and identifiability",
+    "title_ko": "열화 기작과 식별 가능성"
+  },
+  {
+    "slug": "07_MECHANICS_MICROSTRUCTURE_AND_FAILURE",
+    "title_en": "Mechanics, microstructure and failure",
+    "title_ko": "역학·미세구조·파손"
+  },
+  {
+    "slug": "08_PACK_BMS_AND_VEHICLE",
+    "title_en": "Pack, BMS and vehicle boundaries",
+    "title_ko": "팩·BMS·차량 경계조건"
+  },
+  {
+    "slug": "09_DATASET_SELECTION",
+    "title_en": "Dataset selection and matching strategy",
+    "title_ko": "데이터셋 선정과 정합 전략"
+  },
+  {
+    "slug": "10_ACQUISITION_AND_RIGHTS",
+    "title_en": "Acquisition, crawling boundaries and reuse",
+    "title_ko": "수집·크롤링 범위와 재사용 조건"
+  },
+  {
+    "slug": "11_DATA_CONTRACTS_AND_NORMALIZATION",
+    "title_en": "Data contracts and normalization",
+    "title_ko": "데이터 계약과 정규화"
+  },
+  {
+    "slug": "12_VALIDATION_AND_UNCERTAINTY",
+    "title_en": "Validation and uncertainty plan",
+    "title_ko": "검증과 불확실성 계획"
+  },
+  {
+    "slug": "13_GAPS_AND_RESEARCH_ROADMAP",
+    "title_en": "Gap analysis and research gates",
+    "title_ko": "공백 분석과 후속 연구 관문"
+  },
+  {
+    "slug": "14_CAPTURED_DATA_AUDIT",
+    "title_en": "Audit of the captured numeric data",
+    "title_ko": "확보한 수치 데이터 점검"
+  },
+  {
+    "slug": "15_BPX_AND_VERSIONING",
+    "title_en": "BPX semantics and version control",
+    "title_ko": "BPX 의미와 버전 관리"
+  },
+  {
+    "slug": "16_INGESTION_RECIPES",
+    "title_en": "Source-specific ingestion recipes",
+    "title_ko": "출처별 데이터 입력 절차"
+  },
+  {
+    "slug": "17_FUTURE_ENGINE_HANDOFF",
+    "title_en": "Handoff to a future scientific-engine project",
+    "title_ko": "향후 과학 엔진 프로젝트에 넘길 사항"
+  },
+  {
+    "slug": "18_SOURCES_AND_ACCESS_AUDIT",
+    "title_en": "Sources and access audit",
+    "title_ko": "출처와 접근 감사 기록"
+  },
+  {
+    "slug": "19_GLOSSARY",
+    "title_en": "Technical glossary",
+    "title_ko": "기술 용어집"
+  }
+]

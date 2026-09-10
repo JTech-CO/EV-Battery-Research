@@ -1,0 +1,48 @@
+{
+  "original_scripts_and_tests": {
+    "paths": [
+      "scripts/",
+      "tests/"
+    ],
+    "license": "MIT",
+    "notice": "licenses/MIT.txt"
+  },
+  "original_prose": {
+    "paths": [
+      "docs/",
+      "catalog/cards/",
+      "README.md",
+      "README-KR.md",
+      "RESEARCH_REPORT.md",
+      "RESEARCH_REPORT-KR.md"
+    ],
+    "license": "CC-BY-4.0",
+    "note": "Original commentary only; cited third-party data retains source terms."
+  },
+  "about_energy_adaptations": {
+    "paths": [
+      "data/curated/about_energy/",
+      "data/derived/parameters.json",
+      "data/derived/parameters.csv",
+      "data/derived/nmc_reference_curves.json",
+      "data/derived/nmc_reference_curves.csv",
+      "data/derived/ocp_fit_samples.csv"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "provider": "About:Energy Limited",
+    "changes": "Manual semantic capture, reserialization, extraction, sign normalization and fit tabulation; no byte identity claim."
+  },
+  "epa": {
+    "paths": [
+      "data/curated/epa/",
+      "data/derived/us06_si.csv"
+    ],
+    "license": "LicenseRef-EPA-Scientific-Educational-Policy",
+    "commercial_reuse_cleared": false,
+    "policy_url": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers"
+  },
+  "other_external_payloads": {
+    "bundled": false,
+    "note": "Metadata/catalog references do not grant payload redistribution permission."
+  }
+}

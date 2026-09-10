@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One battery reference-curve record; current positive on discharge",
+  "type": "object",
+  "required": [
+    "dataset_id",
+    "cell_id",
+    "protocol_id",
+    "segment_id",
+    "time_s",
+    "current_raw_A",
+    "current_discharge_A",
+    "voltage_V",
+    "reference_temperature_K",
+    "surface_temperature_K",
+    "core_temperature_K",
+    "data_kind",
+    "source_id"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "dataset_id": {
+      "type": "string"
+    },
+    "cell_id": {
+      "type": "string"
+    },
+    "protocol_id": {
+      "type": "string"
+    },
+    "segment_id": {
+      "type": "string"
+    },
+    "time_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "current_raw_A": {
+      "type": "number"
+    },
+    "current_discharge_A": {
+      "type": "number"
+    },
+    "voltage_V": {
+      "type": "number"
+    },
+    "reference_temperature_K": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "surface_temperature_K": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "core_temperature_K": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "data_kind": {
+      "enum": [
+        "source_embedded_reference_curve",
+        "experimental_raw",
+        "processed_experiment",
+        "synthetic"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    }
+  }
+}

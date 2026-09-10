@@ -1,0 +1,31 @@
+test_legacy_bpx_preserved (test_data_tools.CapturedData.test_legacy_bpx_preserved) ... ok
+test_no_claim_of_raw_download (test_data_tools.CapturedData.test_no_claim_of_raw_download) ... ok
+test_no_invented_sensor (test_data_tools.CapturedData.test_no_invented_sensor) ... ok
+test_ocp_finite (test_data_tools.CapturedData.test_ocp_finite) ... ok
+test_parameters_count (test_data_tools.CapturedData.test_parameters_count) ... ok
+test_reference_count (test_data_tools.CapturedData.test_reference_count) ... ok
+test_required_not_measured (test_data_tools.CapturedData.test_required_not_measured) ... ok
+test_us06_rows (test_data_tools.CapturedData.test_us06_rows) ... ok
+test_absolute_path (test_data_tools.Helpers.test_absolute_path) ... ok
+test_blob_integrity (test_data_tools.Helpers.test_blob_integrity) ... ok
+test_blob_tamper_rejected (test_data_tools.Helpers.test_blob_tamper_rejected) ... ok
+test_current_sign (test_data_tools.Helpers.test_current_sign) ... ok
+test_empty_git_blob (test_data_tools.Helpers.test_empty_git_blob) ... ok
+test_exponent_budget (test_data_tools.Helpers.test_exponent_budget) ... ok
+test_expression_attribute_rejected (test_data_tools.Helpers.test_expression_attribute_rejected) ... ok
+test_expression_import_rejected (test_data_tools.Helpers.test_expression_import_rejected) ... ok
+test_expression_math (test_data_tools.Helpers.test_expression_math) ... ok
+test_expression_outside_domain (test_data_tools.Helpers.test_expression_outside_domain) ... ok
+test_invalid_temperature (test_data_tools.Helpers.test_invalid_temperature) ... ok
+test_nonfinite_current (test_data_tools.Helpers.test_nonfinite_current) ... ok
+test_path_escape (test_data_tools.Helpers.test_path_escape) ... ok
+test_temperature (test_data_tools.Helpers.test_temperature) ... ok
+test_unapproved_url (test_data_tools.Helpers.test_unapproved_url) ... ok
+test_unknown_sign_rejected (test_data_tools.Helpers.test_unknown_sign_rejected) ... ok
+test_valid_path (test_data_tools.Helpers.test_valid_path) ... ok
+test_windows_escape (test_data_tools.Helpers.test_windows_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.004s
+
+OK
